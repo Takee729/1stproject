@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header & Navigation Styles */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../portfolio-resources-main/images/header_bg.png), url(../portfolio-resources-main/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav,
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-orange {
+    color: #FD6E0A;
+}
+
+/* banner styles */
+.header-banner {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-sub-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+main {
+    margin: 130px 400px;
+    max-width: 1140px;
+}
+
+/* about me section  */
+.aboutme {
+    background-color: #FFF8F3;
+    padding: 135px 160px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    margin-bottom: 30px;
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {}
+
+.info-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.info-description {
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* what to do section  */
+.what-title {
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.what-description {
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4 {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills img {
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume section  */
+.resume-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+.resume {
+    display: flex;
+    gap: 24px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-head {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-sub-head {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-lead {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.btn-primary {
+    width: 200px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: none;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+
+/* footer section  */
+
+footer {
+    padding: 130px 400px;
+    max-width: 1600px;
+    background-color: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.images img {
+    margin-right: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+form input[type="text"], input[type="email"] {
+    /* width: 461px;
+    height: 64px; */
+    padding: 18px 350px 18px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form textarea {
+    padding: 18px 350px 135px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 24px;
+}
